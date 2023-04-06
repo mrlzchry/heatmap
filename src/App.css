@@ -2,17 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,15 +13,77 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#y-axis line {
+  stroke: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#y-axis path {
+  stroke: black;
+}
+
+#y-axis text {
+  color: black;
+  font-weight: lighter;
+}
+
+#x-axis line {
+  stroke: black;
+}
+
+#x-axis path {
+  stroke: black;
+}
+
+#x-axis text {
+  /* stroke: black; */
+  color: black;
+  font-weight: lighter;
+}
+
+#legend-axis line {
+  stroke: black;
+}
+
+#legend-axis path {
+  stroke: black;
+}
+
+#legend-axis text {
+  /* stroke: black; */
+  color: black;
+  font-weight: lighter;
+}
+
+h1 {
+  margin-bottom: -30px;
+}
+
+#tooltip {
+  position: absolute;
+  text-align: center;
+  height: auto;
+  width: auto;
+  padding: 5px;
+  font-size: 16px;
+  background: #25A18E;
+  box-shadow: 5px 5px 10px;
+  pointer-events: none;
+}
+
+.cell:hover {
+  fill: #9a641c !important;
+}
+
+.cell {
+  stroke: black;
+  stroke-width:0.05ch
+}
+
+#legend rect {
+  stroke: black;
+}
+
+a {
+  color:aliceblue;
+  /* text-decoration: none; */
 }
