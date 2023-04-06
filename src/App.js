@@ -265,7 +265,7 @@ const svg = d3.select('svg')
       <h1>{title}</h1>
       <h3 id="description">1753 - 2015: base temperature 8.66℃</h3>
       <svg ref={svgRef}></svg>
-      <h6><a href="">Source Code</a></h6>
+      <h6><a href="https://github.com/mrlzchry/heatmap">Source Code</a></h6>
     </React.Fragment>
   )
 }
